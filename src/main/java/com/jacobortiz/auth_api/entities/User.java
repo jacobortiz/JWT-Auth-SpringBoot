@@ -9,7 +9,6 @@ import java.util.Date;
 @Table(name = "users")
 @Entity
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false)
